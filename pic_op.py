@@ -155,3 +155,4 @@ if __name__ == "__main__":
     result = process_an_image(img)
     cv2.imshow("lane", np.hstack((img, result)))
     cv2.waitKey(0)
+    print("周鱼")
